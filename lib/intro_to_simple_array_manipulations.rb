@@ -59,6 +59,10 @@ end
     array
   
     end
+    
+    def using_delete_at (array, integer)
+      array = ["i", "am", "tired"]
+      array.delete
       
   
   
