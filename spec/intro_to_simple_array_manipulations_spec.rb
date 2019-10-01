@@ -134,9 +134,9 @@ end
 
 describe "using_delete" do 
   it "takes in two arguments, an array and a string, and uses the delete method to remove any items from the array that are equal to that string" do
-    instructors = ["Josh", "string"]
-    no_offense_steven = using_delete(instructors, "string")
-    expect(instructors).not_to include("string")
+    array = ["Josh", "string"]
+    no_offense_steven = using_delete(array, "string")
+    expect(array).not_to include("string")
   end
 end
 
